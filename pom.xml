@@ -24,7 +24,7 @@
 	<!--	<sonar.host.url>http://172.31.3.210:9000/</sonar.host.url> -->
 		<sonar.host.url>http://13.233.197.155:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>Vit@15mit0086</sonar.password> 
+		<sonar.password>Vit@15mit0083</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -99,13 +99,15 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.47.242:8081/repository/icicibank-release/</url>
+	     <!--  <url>http://172.31.47.242:8081/repository/icicibank-release/</url> -->
+		    <url>http://13.127.15.247:8081/repository/iccibank-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.47.242:8081/repository/icicibank-snapshot/</url>
+	<!--      <url>http://172.31.47.242:8081/repository/icicibank-snapshot/</url> -->
+		    <url>http://13.127.15.247:8081/repository/iccibank-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
