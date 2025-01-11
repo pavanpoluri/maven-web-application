@@ -101,14 +101,14 @@
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	     <!--  <url>http://172.31.47.242:8081/repository/icicibank-release/</url> -->
-		    <url>http://43.205.99.122:8081/repository/iccibank-release/</url>
+		    <url>http://65.1.1.114:8081/repository/iccibank-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	<!--      <url>http://172.31.47.242:8081/repository/icicibank-snapshot/</url> -->
-		    <url>http://43.205.99.122:8081/repository/iccibank-Snapshot/</url>
+		    <url>http://65.1.1.114:8081/repository/iccibank-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
